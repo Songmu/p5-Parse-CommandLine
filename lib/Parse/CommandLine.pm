@@ -84,15 +84,22 @@ __END__
 
 =head1 NAME
 
-Parse::CommandLine - It's new $module
+Parse::CommandLine - Parsing string like command line
 
 =head1 SYNOPSIS
 
     use Parse::CommandLine;
+    my @argv = parse_command_line('command --foo=bar --foo');
+    #=> ('command', '--foo-bar', '--foo')
 
 =head1 DESCRIPTION
 
-Parse::CommandLine is ...
+Parse::CommandLine is a module for parsing string like command line into
+array of arguments.
+
+=head1 FUNCTION
+
+=head2 C<< @command_and_argv = parse_command_line($str) >>
 
 =head1 LICENSE
 
@@ -106,4 +113,3 @@ it under the same terms as Perl itself.
 Songmu E<lt>y.songmu@gmail.comE<gt>
 
 =cut
-

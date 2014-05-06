@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Parsing string like command line",
    "author" : [
       "Songmu <y.songmu@gmail.com>"
    ],
@@ -44,7 +44,8 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "parent" : "0",
+            "perl" : "5.008001"
          }
       },
       "test" : {
@@ -54,5 +55,17 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Songmu/p5-Parse-CommandLine/issues"
+      },
+      "homepage" : "https://github.com/Songmu/p5-Parse-CommandLine",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Songmu/p5-Parse-CommandLine.git",
+         "web" : "https://github.com/Songmu/p5-Parse-CommandLine"
+      }
+   },
+   "version" : "0.01",
+   "x_authority" : "cpan:SONGMU"
 }

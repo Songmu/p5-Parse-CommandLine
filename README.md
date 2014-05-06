@@ -1,14 +1,21 @@
 # NAME
 
-Parse::CommandLine - It's new $module
+Parse::CommandLine - Parsing string like command line
 
 # SYNOPSIS
 
     use Parse::CommandLine;
+    my @argv = parse_command_line('command --foo=bar --foo');
+    #=> ('command', '--foo-bar', '--foo')
 
 # DESCRIPTION
 
-Parse::CommandLine is ...
+Parse::CommandLine is a module for parsing string like command line into
+array of arguments.
+
+# FUNCTION
+
+## `@command_and_argv = parse_command_line($str)`
 
 # LICENSE
 

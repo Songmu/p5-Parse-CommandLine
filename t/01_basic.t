@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use utf8;
-use Test::More;
+use Test::More 0.98;
 
 use Parse::CommandLine;
 
