@@ -42,7 +42,7 @@ sub parse_command_line {
                 $buf .= $char;
             }
             else {
-                push @argv, $buf;
+                push @argv, $buf if defined $buf;
                 undef $buf;
             }
             next;
