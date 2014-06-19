@@ -4,7 +4,7 @@
       "Songmu <y.songmu@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.14.1, CPAN::Meta::Converter version 2.132510",
+   "generated_by" : "Minilla/v1.1.0, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "perl_5"
    ],
@@ -66,6 +66,6 @@
          "web" : "https://github.com/Songmu/p5-Parse-CommandLine"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:SONGMU"
 }
